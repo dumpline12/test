@@ -1,0 +1,101 @@
+/* pages/main/main.wxss */
+.main1
+{
+    height: 710px;
+    width: 380px;
+    background-color:#F1FAF7;
+}
+.find
+{
+
+    height: 50px;
+    width: 380px;
+}
+.findp
+{
+    margin-left: 30px;
+    height: 40px;
+    width: 40px;
+}
+.find_write
+{
+    margin-top: 10px;
+    display: inline-block;
+    height: 50px;
+    width: 280px;
+    border-radius: 25px;
+    background-color: #D5E0DD;
+    margin-left: 10px;
+    color: white;
+}
+.swp
+{
+    margin-top: 20px;
+    width: 380px;
+    height: 240px;
+    background-color: tomato;
+}
+.img1
+{
+    height:250px;
+    width: 380px;
+}
+
+.tubiao1
+{
+    height: 50px;
+    width: 50px;
+
+}
+.txt
+{
+    display: block;
+width: 50px;
+text-align: center;
+}
+.libox{
+display: inline-block;
+margin-left: 35px;
+margin-top: 20px;
+}
+
+.txt2
+{
+    margin-top: 10px;
+    display: block;
+    width: 380;
+    text-align: center;
+    color: blueviolet;
+}
+
+.like
+{
+    width: 380px;
+}
+.like2
+{
+display: inline-block;
+width: 150px;
+height: 150px;
+}
+
+.likep1
+{
+    width: 150px;
+height: 150px;
+border-radius: 25px;
+margin-left: 20px;
+}
+.likep2
+{
+    width: 150px;
+height: 150px;
+border-radius: 25px;
+margin-left: 40px;
+}
+.txt3
+{
+    display: inline-block;
+    width: 210px;
+    text-align: center;
+}

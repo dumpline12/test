@@ -1,0 +1,45 @@
+<!--pages/home/home.wxml-->
+<view class=" index_swiper">
+    <swiper  class="swp" indicator-dots="true" interval="2000" autoplay="true" >
+    <block wx:for="{{movie}}" wx:for-index="index"> 
+      <swiper-item>
+            <image class="box1" src="{{item.url}}"></image>
+      </swiper-item>
+    </block> 
+</swiper>
+</view>
+
+<text class="tt1"> 生活不止眼前的苟且，还有花和远方</text>
+
+<view class="boxf">
+    <button style="width:168px" class="butt" bindtap="gotopage1">
+            <image src="/pages/image/雏菊04.jpg" class="libox">
+        </image>
+         <text class="txt">雏菊</text>
+         </button>
+    <button style="width:168px" class="butt" bindtap="gotopage2">
+        <image src="/pages/image/carnations04.jpg"  class="libox">
+        </image>
+         <text class="txt">康乃馨</text>
+    </button>
+    <button style="width:168px" class="butt" bindtap="gotopage3">
+        <image src="/pages/image/Roses01.jpg" class="libox">
+            </image>
+         <text class="txt">玫瑰</text>
+     </button>
+     <button style="width:168px" class="butt" bindtap="gotopage4">
+        <image src="/pages/image/lilies01.jpg" class="libox">
+        </image>
+         <text class="txt">兰花</text>
+     </button>
+    <button style="width:168px" class="butt" bindtap="gotopage5">
+        <image src="/pages/image/yueji03.jpg" class="libox">
+        </image>
+         <text class="txt">月季</text>
+    </button>
+    <button style="width:168px" class="butt" bindtap="gotopage6">
+        <image src="/pages/image/芍药.webp" class="libox">
+        </image>
+         <text class="txt">芍药</text>
+    </button>
+</view>

@@ -1,0 +1,23 @@
+
+<view class="xxx1">
+<image src="/pages/image/雏菊05.jpg" class="pp1"></image>
+</view>
+<view class="body1">
+<view class="h1">雏菊</view>
+<view class="information"> 雏菊原产于欧洲。原种被视为丛生的杂草，开花期在春季。
+雏菊在能够渡夏的寒冷地区可以进行分枝繁殖。
+早春开花，生气盎然，具有君子的风度和天真烂漫的风采，深得意大利人的喜爱，因而推举为国花。
+</view>
+
+
+<view wx:if="{{cnt1}}" class="heart1">
+<image src="/pages/image/heart.png" class="heart2" bindtap="gotopage1"></image>
+</view>
+
+<view wx:if="{{cnt2}}" class="heart1">
+    <image src="/pages/image/已收藏.png" class="heart2"></image>
+</view>
+
+
+</view>
+

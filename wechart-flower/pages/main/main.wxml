@@ -1,0 +1,86 @@
+<view class="main1">
+
+<view class="find">
+<input type="text" class="find_write" placeholder="遇见美好"/>
+<image src="/pages/image/搜索.png" class="findp" ></image>
+</view>
+
+<view class="swp">
+<swiper class="swp" indicator-dots="true" interval="2000" autoplay="true" 	indicator-color="#BDEEDF" 	circular="true">
+<swiper-item>
+<image src="/pages/image/222.jpg" class="img1"></image>
+</swiper-item>
+<swiper-item>
+<image src="/pages/image/111.jpg" class="img1"></image>
+</swiper-item>
+<swiper-item>
+<image src="/pages/image/333.jpg" class="img1"></image>
+</swiper-item>
+</swiper>
+</view>
+
+
+<view>
+<view class="libox">
+<image src="/pages/image/玫瑰.png" class="tubiao1" bindtap="gotopage3"></image>
+<text class="txt">玫瑰</text>
+</view>
+
+<view class="libox">
+<image src="/pages/image/444.png" class="tubiao1" bindtap="gotopage5"></image>
+<text class="txt">月季</text>
+</view>
+
+<view class="libox">
+<image src="/pages/image/555.png" class="tubiao1" bindtap="gotopage1"></image>
+<text class="txt">雏菊</text>
+</view>
+
+<view class="libox">
+<image src="/pages/image/666.png" class="tubiao1" bindtap="gotopage4"></image>
+<text class="txt">兰花</text>
+</view>
+</view>
+
+<view>
+    <view class="libox">
+<image src="/pages/image/777.png" class="tubiao1" bindtap="gotopage6"></image>
+<text class="txt">芍药</text>
+</view>
+<view class="libox">
+<image src="/pages/image/888.png" class="tubiao1" bindtap="gotopage2"></image>
+<text class="txt">康乃馨</text>
+</view>
+<view class="libox">
+<image src="/pages/image/100.png" class="tubiao1"></image>
+<text class="txt">活动中</text>
+</view>
+
+<view class="libox">
+<image src="/pages/image/999.png" class="tubiao1"></image>
+<text class="txt">派送中</text>
+</view>
+
+</view>
+
+
+<text class="txt2">------------猜你喜欢------------</text>
+
+
+<view class="like">
+<view class="like2">
+<image src="/pages/image/101.jpg" class="likep1"></image>
+<text class="txt3">桃红雪山</text>
+
+</view>
+
+<view class="like2">
+<image src="/pages/image/202.jpg" class="likep2"></image>
+<text class="txt3">粉粉玫瑰</text>
+
+</view>
+
+</view>
+
+
+</view>

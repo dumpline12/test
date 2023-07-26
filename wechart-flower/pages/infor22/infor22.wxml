@@ -1,0 +1,18 @@
+<view class="xxx1">
+<image src="/pages/image/芍药02.webp" class="pp1"></image>
+</view>
+<view class="body1">
+<view class="h1">芍药</view>
+<view class="information">茎高40-70厘米，无毛。下部茎生叶为二回三出复叶，上部茎生叶为三出复叶；小叶狭卵形，椭圆形或披针形，顶端渐尖，基部楔形或偏斜，边缘具白色骨质细齿，两面无毛，背面沿叶脉疏生短柔毛。
+
+</view>
+
+
+<view wx:if="{{cnt1}}" class="heart1">
+<image src="/pages/image/heart.png" class="heart2" bindtap="gotopage1"></image>
+</view>
+
+<view wx:if="{{cnt2}}" class="heart1">
+    <image src="/pages/image/已收藏.png" class="heart2"></image>
+</view>
+</view>

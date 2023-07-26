@@ -1,0 +1,51 @@
+{
+  "pages":[ 
+    "pages/main/main",
+     "pages/home/home",  
+     "pages/robot/robot",
+    "pages/infor2/infor2",
+    "pages/setpu/setup",
+   "pages/infor/infor",
+    "pages/infor1/infor1",
+    "pages/tulip/tulip",
+    "pages/lilies/lilies",
+    "pages/kangnaixin/kangnaixin",
+    "pages/Pear/Pear",
+    "pages/index/index",
+    "pages/infor22/infor22"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#13EFA9",
+    "navigationBarTitleText": "远方的花",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath":"pages/main/main",
+      "text": "主页",
+      "iconPath": "/pages/image/home.png",
+      "selectedIconPath": "/pages/image/home.png"
+    },
+    {
+      "pagePath":"pages/home/home",
+      "text": "详情",
+      "iconPath": "/pages/image/详情.png",
+      "selectedIconPath": "/pages/image/详情.png"
+    },
+    {
+      "pagePath":"pages/robot/robot",
+      "text": "客服小清",
+      "iconPath": "/pages/image/女孩.png",
+      "selectedIconPath": "/pages/image/女孩.png"
+    }
+    
+
+  ]
+  },
+
+ 
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

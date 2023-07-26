@@ -1,0 +1,19 @@
+
+<view class="xxx1">
+<image src="/pages/image/多头玫.png" class="pp1"></image>
+</view>
+<view class="body1">
+<view class="h1">多头玫 -- 柠檬泡泡 40-45cm</view>
+<view class="information">  多头玫瑰，作为新型切花，深受人们喜爱。也称多头月季，是蔷薇科蔷薇属木本花卉，相对最普遍的玫瑰一个枝只有一朵花来说，多头玫瑰则有十多朵花蕾，甚至几十朵。其切花效果是繁盛缤纷的。
+</view>
+
+
+<view wx:if="{{cnt1}}" class="heart1">
+<image src="/pages/image/heart.png" class="heart2" bindtap="gotopage1"></image>
+</view>
+
+<view wx:if="{{cnt2}}" class="heart1">
+    <image src="/pages/image/已收藏.png" class="heart2"></image>
+</view>
+</view>
+

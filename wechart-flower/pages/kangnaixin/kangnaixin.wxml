@@ -1,0 +1,19 @@
+<!--pages/kangnaixin/kangnaixin.wxml-->
+
+<view class="xxx1">
+<image src="/pages/image/Roses04.jpg" class="pp1"></image>
+</view>
+<view class="body1">
+<view class="h1">康乃馨</view>
+<view class="information">  模式种香石竹是多年生草本花卉。茎直立，多分枝，株高70-100厘米，基部半木质化。整个植株被有白粉，呈灰绿色。茎干硬而脆，节膨大。叶线状披针形，全缘，叶质较厚，上半部向外弯曲，对生，基部抱茎。花通常单生，聚伞状排列。花冠康乃馨形，花萼长筒状，花蕾橡子状，花瓣扇形，花朵内瓣多呈皱缩状，花色有大红、粉红、鹅黄、白、深红等，还有玛瑙等复色及镶边等，有香气。
+</view>
+
+<view wx:if="{{cnt1}}" class="heart1">
+<image src="/pages/image/heart.png" class="heart2" bindtap="gotopage1"></image>
+</view>
+
+<view wx:if="{{cnt2}}" class="heart1">
+    <image src="/pages/image/已收藏.png" class="heart2"></image>
+</view>
+
+</view>

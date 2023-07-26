@@ -1,0 +1,28 @@
+<view class="top">
+
+<view class="welcom">
+<image src="/pages/image/女孩.png" class="kefu"></image>
+<text class="text1">你好呀！我是小清，是你的专属客服，有问题可以问我哦！</text>
+</view>
+<view wx:if="{{cnt2}}" class="konbai">
+
+</view>
+<view wx:if="{{cnt1}}" class="user">
+<view class="user_text">{{text}}</view>
+<image src="/pages/image/头像 男孩.png" class="user_head"></image>
+
+<image src="/pages/image/女孩.png" class="kefu2"></image>
+<view class="user_text2">{{text2}}</view>
+</view>
+
+<view class="send">
+
+<input type="text" confirm-type="send" class="send1" model:value="{{text}}" placeholder="请输入你想问的问题"/>
+<image src="/pages/image/发送.png" bindtap="tapName" class="sendp"></image>
+</view>
+
+
+
+</view>
+
+

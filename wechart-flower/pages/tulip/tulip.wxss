@@ -1,0 +1,16 @@
+/* pages/tulip/tulip.wxss */
+.box{
+  display: flex;
+  /* height: 300px; */
+  flex-direction: column;
+  align-items:center ;
+  background-image:url(/image/rose.jpg) ;
+}
+.box1{
+  display: block;
+  height:200px; 
+  width: 320px;
+} 
+.txt01{
+  display: block;
+}

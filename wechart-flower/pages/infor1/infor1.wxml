@@ -1,0 +1,21 @@
+
+<view class="xxx1">
+<image src="/pages/image/月季.jpg" class="pp1" mode="widthFix"></image>
+</view>
+<view class="body1">
+<view class="h1">月季</view>
+<view class="information">  月季花（学名：Rosa chinensis Jacq.）：被称为花中皇后，又称"月月红"，是常绿、半常绿低矮灌木，四季开花﹐一般为红色﹐或粉色、偶有白色和黄色﹐可作为观赏植物，也可作为药用植物，亦称月季。
+</view>
+
+
+<view wx:if="{{cnt1}}" class="heart1">
+<image src="/pages/image/heart.png" class="heart2" bindtap="gotopage1"></image>
+</view>
+
+<view wx:if="{{cnt2}}" class="heart1">
+    <image src="/pages/image/已收藏.png" class="heart2"></image>
+</view>
+
+
+</view>
+

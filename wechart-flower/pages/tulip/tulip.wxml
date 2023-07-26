@@ -1,0 +1,22 @@
+<!--pages/tulip/tulip.wxml-->
+<swiper indicator-dots="true" interval="2000" autoplay="true" >
+    <block wx:for="{{movie}}" wx:for-index="index"> 
+      <swiper-item>
+            <image class="box1" src="{{item.url}}"></image>
+      </swiper-item>
+    </block> 
+</swiper>
+<view class="box">
+<text>基本信息</text>
+<text>中文名：郁金香 </text>
+<text>英文名：Garden tulip, Didier's tulip </text>
+<text>拉丁学名：Tulipa gesneriana L.  </text>
+<text>界:植物界   </text>
+<text>门:被子植物门</text>
+<text>纲:单子叶植物纲亚 </text>
+<text>科:百合科</text>
+<text>亚科：百合亚科</text>
+<text>族：郁金香族</text>
+<text class="bck">地中海沿岸及中亚细亚、和土耳其等地</text>
+  <text class="txt01">详情介绍:多年生草本。鳞茎偏圆锥形，直径约2-3cm，外被淡黄至棕褐色皮膜，内有肉质鳞片2-5片。茎叶光滑，被白粉。叶3-5枚，带状披针形至卵状披针形，全缘并成波形，常有毛，其中2-3枚宽广而基生。花单生茎顶，大型，直立杯状，洋红色，鲜黄至紫红色，基部具有墨紫斑，花被片6枚，离生，倒卵状长圆形，花期3-5月。蒴果室背开裂，种子扁平。</text>
+</view>
